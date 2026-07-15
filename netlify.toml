@@ -1,0 +1,9 @@
+[build]
+  base    = "artifacts/decoration-kingdom"
+  command = "pnpm install && BASE_PATH=/ PORT=5173 pnpm run build"
+  publish = "dist/public"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
