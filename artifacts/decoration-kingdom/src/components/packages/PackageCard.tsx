@@ -21,12 +21,12 @@ export function PackageCard({
       whileHover={{ y: -8 }}
       className="group relative rounded-2xl overflow-hidden bg-white shadow-card border border-border/70 hover:border-[color:var(--gold)]/60 transition-colors"
     >
-      <button onClick={() => onView(pkg)} className="block w-full aspect-[3/4] overflow-hidden relative text-left">
+      <button onClick={() => onView(pkg)} className="block w-full aspect-[3/4] overflow-hidden relative text-left bg-[color:var(--purple-deep)]/5">
         <img
           src={pkg.image}
           alt={pkg.name}
           loading="lazy"
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)]"
+          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--purple-deep)]/70 via-transparent to-transparent opacity-80" />
         <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white text-[11px]">
