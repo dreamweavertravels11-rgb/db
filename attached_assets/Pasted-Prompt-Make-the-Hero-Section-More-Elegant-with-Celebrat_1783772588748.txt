@@ -1,0 +1,109 @@
+Prompt: Make the Hero Section More Elegant with Celebration Balloon Animations
+
+The current homepage hero section feels too plain and static. Keep the existing layout, colors, typography, and branding exactly the same, but make it feel alive, premium, and celebration-focused by adding tasteful balloon animations.
+
+Requirements
+Keep the theme elegant, luxurious, and suitable for celebration decorations.
+Do NOT overcrowd the hero section.
+Avoid flashy or childish animations.
+Every animation should be smooth (60fps), lightweight, and professional.
+Balloon Animations
+
+Add multiple layers of balloons throughout the hero section:
+
+8–12 realistic helium balloons placed around the edges.
+Balloons should use the website color palette:
+Pink
+Purple
+White
+Gold
+Rose Gold
+Different balloon sizes for depth.
+Some glossy metallic balloons.
+A few transparent balloons with confetti inside.
+Floating Motion
+
+Each balloon should:
+
+Slowly float upward.
+Move slightly left and right naturally.
+Have different speeds and delays.
+Gently rotate by 2–4 degrees.
+Bounce subtly as if attached to invisible strings.
+
+Animation should never distract from the main heading.
+
+Depth Effect
+
+Create a layered effect:
+
+Background balloons:
+Slight blur
+Lower opacity
+Slow movement
+Middle balloons:
+Normal opacity
+Medium speed
+Foreground balloons:
+Slightly larger
+Occasionally drift across the screen
+Soft shadows
+Mouse Interaction
+
+When the cursor moves:
+
+Nearby balloons should gently react.
+Maximum movement: 10–15px.
+Smooth easing.
+No sudden jumps.
+Confetti Particles
+
+Add subtle celebration particles:
+
+Tiny confetti pieces
+Small sparkles
+Mini hearts
+Gold dots
+
+Particles should:
+
+Float slowly
+Fade in/out
+Randomly appear
+Never cover the text
+Decorative Extras
+
+Add subtle premium decorations:
+
+Thin curling ribbons near some balloons.
+Small sparkling stars that twinkle occasionally.
+Soft glowing particles.
+Tiny floating hearts.
+
+Keep all decorations minimal.
+
+Entrance Animation
+
+When the page loads:
+
+Balloons should rise from below the viewport.
+Fade in smoothly.
+Stagger animations over 1–2 seconds.
+Hero content should appear independently without delay.
+Performance
+Use only CSS transforms and opacity.
+Use GPU-accelerated animations.
+Avoid layout shifts.
+Keep animations lightweight and mobile-friendly.
+Respect prefers-reduced-motion.
+Mobile
+
+On smaller screens:
+
+Reduce balloons to 4–6.
+Reduce particle count.
+Maintain clean spacing around text.
+Ensure nothing overlaps buttons or headings.
+Overall Goal
+
+The homepage should immediately feel like entering a premium celebration and event decoration website. Visitors should experience a subtle sense of joy and elegance through gentle floating balloons, soft sparkles, and refined celebratory motion—without making the design look childish, cluttered, or obviously AI-generated.
