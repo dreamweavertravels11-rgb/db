@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Check, Clock, MapPin, MessageCircle, Phone, Plus, X } from "lucide-react";
-import { useEffect } from "react";
+import { Check, ChevronDown, ChevronUp, Clock, MapPin, MessageCircle, Phone, Plus, Sparkles, X } from "lucide-react";
+import { useEffect, useState } from "react";
 
 import { WHATSAPP_BOOKING_URL } from "@/lib/whatsapp";
 import { inr, type PackageItem } from "@/lib/packages-catalog";
@@ -23,6 +23,31 @@ export function PackageModal({ pkg, onClose }: { pkg: PackageItem | null; onClos
   }, [pkg, onClose]);
 
   const whatsappHref = pkg ? WHATSAPP_BOOKING_URL : "#";
+  const [showAddons, setShowAddons] = useState(false);
+
+  const extraAddons = {
+    foilBalloons: [
+      { name: "Number Foil Balloon", price: "₹299 each", desc: '32" Large Silver/Gold/Rose Gold Number 0–9' },
+      { name: "Alphabet Foil Balloon", price: "₹99 per letter", desc: '16" Silver/Gold Letters – Name spell karne ke liye' },
+      { name: "Theme Foil Balloon", price: "₹350 each", desc: "Spiderman, Barbie, Unicorn, Dinosaur, Car, Princess etc." },
+      { name: "Star / Heart Foil Balloon", price: "₹250 each", desc: '18" Silver, Gold, Pink, Blue, Red' },
+      { name: "Confetti Foil Balloon", price: "₹300 each", desc: '24" Clear with Silver/Gold Confetti' },
+    ],
+    decorAddons: [
+      { name: "Extra Balloon Garland", price: "₹999", desc: "10ft additional balloon garland in theme colors" },
+      { name: "Helium Balloons with Weight", price: "₹80/piece", desc: "Metallic + Confetti balloons with ribbon & weight" },
+      { name: "Themed Table Setup", price: "₹1,499", desc: "Theme tablecloth, runner, plates, cups, napkins for 10 people" },
+      { name: "Fairy Lights Setup", price: "₹799", desc: "LED fairy lights for backdrop + floor" },
+      { name: "Fog Entry / Smoke Machine", price: "₹1,200", desc: "10 minutes fog for cake cutting" },
+      { name: "Cold Pyro / Sparklers", price: "₹500 for 2", desc: "Safe cold pyros for cake cutting moment" },
+      { name: "Themed Props Corner", price: "₹1,999", desc: "Photo booth props + Standing cutouts as per theme" },
+      { name: "Welcome Board + Easel", price: "₹999", desc: "Custom name + photo welcome board" },
+      { name: "Balloon Drop", price: "₹1,500", desc: "200 balloons drop during cake cutting" },
+      { name: "Cake Table Decoration", price: "₹1,299", desc: "Cake table with fairy lights, flowers & theme decor" },
+      { name: "Photographer for 2 Hours", price: "₹3,500", desc: "Professional photos + 20 edited pics" },
+      { name: "Character Mascot Entry", price: "₹4,500", desc: "15 min entry – Mickey, Minnie, Spiderman, Barbie, etc." },
+    ],
+  };
 
   return (
     <AnimatePresence>
@@ -118,6 +143,65 @@ export function PackageModal({ pkg, onClose }: { pkg: PackageItem | null; onClos
                     </ul>
                   </div>
                 )}
+
+                {/* Extra Add-ons */}
+                <div className="mt-5 rounded-2xl border border-[color:var(--gold)]/40 overflow-hidden">
+                  <button
+                    onClick={() => setShowAddons((v) => !v)}
+                    className="w-full flex items-center justify-between px-4 py-3 bg-gradient-to-r from-[color:var(--purple-deep)]/5 to-[color:var(--gold)]/10 hover:from-[color:var(--purple-deep)]/10 transition-colors"
+                  >
+                    <span className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[color:var(--purple-deep)]">
+                      <Sparkles className="w-3.5 h-3.5 text-[color:var(--gold)]" />
+                      Extra Add-ons Available
+                    </span>
+                    {showAddons ? <ChevronUp className="w-4 h-4 text-[color:var(--purple-deep)]" /> : <ChevronDown className="w-4 h-4 text-[color:var(--purple-deep)]" />}
+                  </button>
+
+                  {showAddons && (
+                    <div className="px-4 pb-4 pt-3 space-y-4 bg-white">
+                      {/* Foil Balloons */}
+                      <div>
+                        <p className="text-[10px] font-bold uppercase tracking-widest text-[color:var(--pink)] mb-2">🎈 Foil Balloons</p>
+                        <ul className="space-y-2">
+                          {extraAddons.foilBalloons.map((a) => (
+                            <li key={a.name} className="flex items-start justify-between gap-3">
+                              <div>
+                                <p className="text-xs font-semibold text-foreground">{a.name}</p>
+                                <p className="text-[11px] text-muted-foreground">{a.desc}</p>
+                              </div>
+                              <span className="shrink-0 text-xs font-bold text-[color:var(--purple-deep)] whitespace-nowrap">{a.price}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Decor Add-ons */}
+                      <div>
+                        <p className="text-[10px] font-bold uppercase tracking-widest text-[color:var(--pink)] mb-2">✨ Decor Add-ons</p>
+                        <ul className="space-y-2">
+                          {extraAddons.decorAddons.map((a) => (
+                            <li key={a.name} className="flex items-start justify-between gap-3">
+                              <div>
+                                <p className="text-xs font-semibold text-foreground">{a.name}</p>
+                                <p className="text-[11px] text-muted-foreground">{a.desc}</p>
+                              </div>
+                              <span className="shrink-0 text-xs font-bold text-[color:var(--purple-deep)] whitespace-nowrap">{a.price}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Add-on Notes */}
+                      <div className="pt-2 border-t border-border/50 space-y-1">
+                        {["All add-ons can be added to any package.", "Price may vary by location.", "Book 24 hours in advance.", "Setup time will increase by 30 mins with add-ons."].map((n) => (
+                          <p key={n} className="text-[11px] text-muted-foreground flex items-start gap-1.5">
+                            <span className="text-green-500 mt-0.5">✔</span> {n}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
 
                 {/* Standard Notes */}
                 <div className="mt-5 rounded-2xl bg-amber-50 border border-amber-200/70 p-4">
