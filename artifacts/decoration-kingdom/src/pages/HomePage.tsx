@@ -79,7 +79,7 @@ const specialties = [
   { title: "Mehendi Decoration",        img: spMehndi,      to: "/packages/collection/mehendi"     },
   { title: "Engagement Decoration",     img: spEngagement,  to: "/packages/collection/engagement"  },
   { title: "Corporate Event Decoration",img: specCorporate, to: "/packages/collection/corporate"   },
-  { title: "Kids Theme Decoration",     img: spKids,        to: "/kids-themes"                     },
+  { title: "Kids Theme Decoration",     img: kidsThemesNew, to: "/kids-themes"                     },
 ];
 
 const stats = [
