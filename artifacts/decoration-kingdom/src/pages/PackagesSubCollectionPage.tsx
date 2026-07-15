@@ -52,7 +52,7 @@ export function PackagesSubCollectionPage() {
           {items.length === 0 ? (
             <p className="text-center text-muted-foreground">More packages coming soon for this collection.</p>
           ) : (
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {items.map((p, i) => (
                 <PackageCard key={p.id} pkg={p} index={i} onView={setActive} />
               ))}

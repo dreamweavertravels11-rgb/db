@@ -82,11 +82,14 @@ export function PackageModal({ pkg, onClose }: { pkg: PackageItem | null; onClos
               <X className="w-5 h-5" />
             </button>
 
-            <div className="grid sm:grid-cols-2">
-              {/* Large image */}
-              <div className="relative aspect-[4/5] sm:aspect-auto sm:h-full min-h-[240px] overflow-hidden">
-                <img src={pkg.image} alt={pkg.name} className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+            <div className="flex flex-col">
+              {/* Full-width image — object-contain so nothing is cropped */}
+              <div className="relative w-full bg-[color:var(--purple-deep)]/5 overflow-hidden">
+                <img
+                  src={pkg.image}
+                  alt={pkg.name}
+                  className="w-full max-h-[55vh] object-contain"
+                />
                 <div className="absolute top-4 left-4 rounded-full bg-white/90 backdrop-blur px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[color:var(--purple-deep)]">
                   {pkg.categoryLabel}
                   {pkg.subcategoryLabel ? ` · ${pkg.subcategoryLabel}` : ""}

@@ -21,7 +21,7 @@ export function PackageCard({
       whileHover={{ y: -8 }}
       className="group relative rounded-2xl overflow-hidden bg-white shadow-card border border-border/70 hover:border-[color:var(--gold)]/60 transition-colors"
     >
-      <button onClick={() => onView(pkg)} className="block w-full aspect-[4/5] overflow-hidden relative text-left">
+      <button onClick={() => onView(pkg)} className="block w-full aspect-[3/4] overflow-hidden relative text-left">
         <img
           src={pkg.image}
           alt={pkg.name}
