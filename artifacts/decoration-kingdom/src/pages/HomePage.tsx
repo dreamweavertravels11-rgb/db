@@ -45,9 +45,9 @@ const romanticCelebrations = [
 ];
 
 const babyCelebrations = [
-  { title: "Baby Shower", img: celebBabyShower, to: "/packages", hash: "baby-shower" },
-  { title: "Baby Welcome", img: celebBabyWelcome, to: "/packages", hash: "welcome-baby" },
-  { title: "Naming Ceremony", img: celebNaming, to: "/packages", hash: "welcome-baby" },
+  { title: "Baby Shower", img: celebBabyShower, to: "/packages/collection/baby-shower" },
+  { title: "Baby Welcome", img: celebBabyWelcome, to: "/packages/collection/welcome-baby" },
+  { title: "Naming Ceremony", img: celebNaming, to: "/packages/collection/naming-ceremony" },
   { title: "Kids Themes", img: kidsThemesNew, to: "/kids-themes" },
 ];
 
