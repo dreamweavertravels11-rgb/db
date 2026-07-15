@@ -91,7 +91,7 @@ function imagesFor(categoryId: string, subId?: string): string[] {
 
 /* Per-package overrides: index matches the sorted image order in the folder */
 type PackageOverride = { name: string; price: number; includes: string[]; addons: string[] };
-const packageOverrides: Record<string, PackageOverride[]> = {
+const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   "birthday-adult": [
     {
       name: "Black Gold Mustard 20th Birthday",
@@ -375,11 +375,117 @@ const packageOverrides: Record<string, PackageOverride[]> = {
       addons: ["Photographer (2 hrs)", "Fresh flower bouquet", "Premium cake table styling", "Candlelight dinner setup"],
     },
   ],
+  "birthday-baby-boy": [
+    undefined, undefined, undefined, undefined,
+    undefined, undefined, undefined, undefined,
+    undefined, undefined, undefined, undefined,
+    {
+      name: "Royal Blue & Silver Classic 1st Birthday",
+      price: 3499,
+      includes: [
+        "Blue + Silver Chrome Balloon Arch",
+        "Silver Fringe Curtain Backdrop",
+        '"HAPPY BIRTHDAY" Blue Banner with Gold Text',
+        "Blue Star Foil Balloons",
+        "Gift Box Props – Blue",
+        "Floor Confetti Scatter – Blue & Silver",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
+      name: "Construction / JCB Theme Birthday",
+      price: 3899,
+      includes: [
+        "Yellow, Black, Orange, Peach Balloon Arch + Floor Scatter",
+        "Gold Fringe Curtain Backdrop",
+        '"HAPPY BIRTHDAY" Silver Foil Letter Balloons',
+        "Crane Foil Balloon + Excavator Foil Balloon",
+        "Construction Vehicle Round Foils ×2",
+        "Blue Star Foil Balloon",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
+      name: "Dinosaur Jungle Theme Birthday",
+      price: 3799,
+      includes: [
+        "Green, Teal, Orange, Gold Balloon Garland",
+        "Green Fringe Curtain Backdrop",
+        '"HAPPY BIRTHDAY" Gold Foil Letter Balloons',
+        "T-Rex Dinosaur Foil Balloon",
+        "Dinosaur Printed Round Foils ×2",
+        "Green Star Foil Balloons ×2 + Leopard Print Balloons",
+        "Gold Tassels + Floor Balloon Scatter",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
+      name: "Wild One Jungle Safari Theme",
+      price: 3799,
+      includes: [
+        "Green, Light Green, Gold Balloon Arch",
+        '"WILD" Gold Foil + "One" Silver Foil Letter Balloons',
+        "Giraffe, Lion, Tiger, Zebra, Monkey Animal Foil Balloons ×5",
+        "Artificial Green Vine Curtain Backdrop",
+        "Green Leaf Props + Fairy Lights",
+        'Cake Table with "One" Topper',
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
+      name: "Cocomelon Pastel Theme Birthday",
+      price: 3499,
+      includes: [
+        "Pastel Balloon Wall – Mint, Yellow, Orange, Lavender, Blue",
+        '"HAPPY BIRTHDAY" Cocomelon Printed Banner',
+        "JJ Foil Balloon + 2 Cocomelon Round Foils",
+        "Rainbow Star Foil + 2 Silver Star Foils",
+        "Traffic Light Prop",
+        "Small Balloon Clusters + Cloud Balloons",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
+      name: "Mickey Mouse Classic Theme Birthday",
+      price: 3599,
+      includes: [
+        "Red, Black, Yellow Balloon Arch + Floor Scatter",
+        "Mickey Mouse Printed Backdrop – Red",
+        '"HAPPY BIRTHDAY" Text on Backdrop',
+        "Mickey Mouse Standing Foil Balloon",
+        'Number "2" Silver Foil Balloon',
+        "Polka Dot Balloons – Red & Black",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
+      name: "Sonic The Hedgehog Theme Birthday",
+      price: 3799,
+      includes: [
+        "Blue, Light Blue Balloon Arch",
+        "Silver + Blue Fringe Curtain Backdrop",
+        '"Happy Birthday" Silver Foil Letters',
+        "Sonic Foil Balloon",
+        'Number "7" Silver Foil Balloon',
+        "Blue Heart Foil Balloons + Red & Silver Star Foils",
+        "Gold Ring Props + Fairy Lights",
+        "Floor Balloon Clusters",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+  ],
 };
 
 const nameThemes: Record<string, string[]> = {
   "birthday-baby-girl": ["Pastel Princess Balloon Setup", "Unicorn Dream Birthday Decor", "Barbie Sparkle Birthday Theme", "Butterfly Garden Birthday Decor", "Pink Rosegold Birthday Setup", "Floral Fairy Birthday Theme", "Candy Pop Birthday Decor", "Pink Silver Party Birthday", "Purple Glam Birthday", "Mermaid Dream Birthday"],
-  "birthday-baby-boy": ["Superhero Squad Birthday Decor", "Jungle Safari Birthday Theme", "Little Champ Balloon Setup", "Blue & Gold Birthday Decor", "Cars & Wheels Birthday Theme", "Space Explorer Birthday Decor", "Dino Adventure Birthday Setup", "Blue Purple Birthday Theme", "Jungle Safari Birthday", "Circus Carnival Birthday", "Baby Shark Birthday Theme"],
+  "birthday-baby-boy": ["Superhero Squad Birthday Decor", "Jungle Safari Birthday Theme", "Little Champ Balloon Setup", "Blue & Gold Birthday Decor", "Cars & Wheels Birthday Theme", "Space Explorer Birthday Decor", "Dino Adventure Birthday Setup", "Blue Purple Birthday Theme", "Jungle Safari Birthday", "Circus Carnival Birthday", "Baby Shark Birthday Theme", "Ocean Adventure Birthday Theme", "Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
   "birthday-twins": ["Twin Stars Birthday Decor", "His & Hers Balloon Setup", "Double Delight Birthday Theme", "Twin Rainbow Birthday Decor"],
   "birthday-adult": ["Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
   anniversary: ["Heart Canopy Anniversary Decor", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
