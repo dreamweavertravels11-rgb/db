@@ -57,7 +57,7 @@ export function PackagesCollectionPage() {
               <CollectionGrid categoryId={cat.id} subcategories={cat.subcategories!} />
             </>
           ) : (
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {directPackages.map((p, i) => (
                 <PackageCard key={p.id} pkg={p} index={i} onView={setActive} />
               ))}

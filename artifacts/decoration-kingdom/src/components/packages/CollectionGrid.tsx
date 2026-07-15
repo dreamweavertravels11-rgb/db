@@ -7,7 +7,7 @@ import { getPackages } from "@/lib/packages-catalog";
 
 export function CollectionGrid({ categoryId, subcategories }: { categoryId: CategoryId; subcategories: SubcategoryDef[] }) {
   return (
-    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {subcategories.map((sub, i) => {
         const pkgs = getPackages(categoryId, sub.id);
         const cover = pkgs[0]?.image;
