@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Check, ChevronDown, ChevronUp, Clock, MapPin, MessageCircle, Phone, Plus, Sparkles, X } from "lucide-react";
+import { Check, ChevronDown, ChevronUp, Clock, MapPin, MessageCircle, Phone, Sparkles, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { WHATSAPP_BOOKING_URL } from "@/lib/whatsapp";
@@ -127,22 +127,6 @@ export function PackageModal({ pkg, onClose }: { pkg: PackageItem | null; onClos
                     ))}
                   </ul>
                 </div>
-
-                {pkg.addons.length > 0 && (
-                  <div className="mt-5">
-                    <p className="text-xs font-bold uppercase tracking-widest text-[color:var(--purple-deep)] mb-2">
-                      Add-ons Available
-                    </p>
-                    <ul className="space-y-1.5">
-                      {pkg.addons.map((a) => (
-                        <li key={a} className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <Plus className="w-3.5 h-3.5 mt-1 shrink-0 text-[color:var(--gold)]" />
-                          {a}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
 
                 {/* Extra Add-ons */}
                 <div className="mt-5 rounded-2xl border border-[color:var(--gold)]/40 overflow-hidden">
