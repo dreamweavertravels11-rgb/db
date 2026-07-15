@@ -13,7 +13,7 @@ import spWelcomeBaby  from "@/assets/new-welcome-baby.png";
 import spHaldi        from "@/assets/sp-haldi.jpg";
 import spMehndi       from "@/assets/sp-mehndi.jpg";
 import spEngagement   from "@/assets/sp-engagement.jpg";
-import spKids         from "@/assets/sp-kids.jpg";
+import spKids         from "@/assets/kids-themes-new.jpg";
 
 const services = [
   { icon: Cake,       title: "Birthday Decoration",        img: spBirthday,    desc: "Themed room surprises, cake tables, garlands & foil banners for all ages.",                      link: "/packages",    hash: "birthday"    },

@@ -681,7 +681,7 @@ export function HomePage() {
               className="relative w-16 h-16 rounded-2xl overflow-hidden bg-white/90 shadow-lg"
               aria-hidden
             >
-              <img src="/logo.svg" alt="Decoration Kingdom logo" className="h-full w-full object-contain p-2" />
+              <img src="/logo.png" alt="Decoration Kingdom logo" className="h-full w-full object-contain p-2" />
             </motion.div>
             <div className="leading-tight">
               <div className="font-display font-black text-xl tracking-tight text-[color:var(--purple-deep)]">Decoration Kingdom</div>
