@@ -376,9 +376,6 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
   ],
   "birthday-baby-boy": [
-    undefined, undefined, undefined, undefined,
-    undefined, undefined, undefined, undefined,
-    undefined, undefined, undefined, undefined,
     {
       name: "Royal Blue & Silver Classic 1st Birthday",
       price: 3499,
@@ -485,7 +482,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
 
 const nameThemes: Record<string, string[]> = {
   "birthday-baby-girl": ["Pastel Princess Balloon Setup", "Unicorn Dream Birthday Decor", "Barbie Sparkle Birthday Theme", "Butterfly Garden Birthday Decor", "Pink Rosegold Birthday Setup", "Floral Fairy Birthday Theme", "Candy Pop Birthday Decor", "Pink Silver Party Birthday", "Purple Glam Birthday", "Mermaid Dream Birthday"],
-  "birthday-baby-boy": ["Superhero Squad Birthday Decor", "Jungle Safari Birthday Theme", "Little Champ Balloon Setup", "Blue & Gold Birthday Decor", "Cars & Wheels Birthday Theme", "Space Explorer Birthday Decor", "Dino Adventure Birthday Setup", "Blue Purple Birthday Theme", "Jungle Safari Birthday", "Circus Carnival Birthday", "Baby Shark Birthday Theme", "Ocean Adventure Birthday Theme", "Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
+  "birthday-baby-boy": ["Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
   "birthday-twins": ["Twin Stars Birthday Decor", "His & Hers Balloon Setup", "Double Delight Birthday Theme", "Twin Rainbow Birthday Decor"],
   "birthday-adult": ["Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
   anniversary: ["Heart Canopy Anniversary Decor", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],

@@ -4,13 +4,13 @@
  * Each theme has 4 packages with unique names, prices, descriptions & inclusions.
  */
 
-import bb01 from "@/assets/pkg/birthday/baby-boy/bday-boy-01.jpg";
-import bb02 from "@/assets/pkg/birthday/baby-boy/bday-boy-02.jpg";
-import bb03 from "@/assets/pkg/birthday/baby-boy/bday-boy-03.jpg";
-import bb04 from "@/assets/pkg/birthday/baby-boy/bday-boy-04.jpg";
-import bb05 from "@/assets/pkg/birthday/baby-boy/bday-boy-05.jpg";
-import bb06 from "@/assets/pkg/birthday/baby-boy/bday-boy-06.jpg";
-import bb07 from "@/assets/pkg/birthday/baby-boy/bday-boy-07.jpg";
+import bb01 from "@/assets/pkg/birthday/baby-boy/bday-boy-00.png";
+import bb02 from "@/assets/pkg/birthday/baby-boy/bday-boy-01.png";
+import bb03 from "@/assets/pkg/birthday/baby-boy/bday-boy-02.png";
+import bb04 from "@/assets/pkg/birthday/baby-boy/bday-boy-03.png";
+import bb05 from "@/assets/pkg/birthday/baby-boy/bday-boy-04.png";
+import bb06 from "@/assets/pkg/birthday/baby-boy/bday-boy-05.png";
+import bb07 from "@/assets/pkg/birthday/baby-boy/bday-boy-06.png";
 import bg01 from "@/assets/pkg/birthday/baby-girl/bday-girl-01.jpg";
 import bg02 from "@/assets/pkg/birthday/baby-girl/bday-girl-02.jpg";
 import bg03 from "@/assets/pkg/birthday/baby-girl/bday-girl-03.jpg";
