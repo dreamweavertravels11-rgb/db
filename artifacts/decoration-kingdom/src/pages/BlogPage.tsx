@@ -6,7 +6,7 @@ import { SiteHeader, SiteFooter } from "@/components/site-chrome";
 import blogBalloon    from "@/assets/blog-p1.jpg"; // rainbow balloon arch — Balloon Backdrop article
 import blogRoom       from "@/assets/blog-p2.jpg"; // red anniversary arch — Surprise Room article
 import blogKids       from "@/assets/blog-p3.jpg"; // mermaid birthday — Kids Themes article
-import blogAnniv      from "@/assets/blog-p4.jpg"; // black/silver ring — Anniversary Colours article
+import blogAnniv      from "@/assets/blog-p4.png"; // black/gold balloon arch — Birthday Décor article
 import blogBabyShower from "@/assets/blog-p5.jpg"; // decoration setup — Baby Shower article
 import blogProposal   from "@/assets/new-proposal.png"; // Proposal decoration — Proposal article
 
@@ -14,7 +14,7 @@ const posts = [
   { title: "Rainbow Balloon Arches: Delhi's Most Colourful Birthday Trend Right Now",  tag: "Birthday",     date: "Jun 12, 2026", read: "6 min", img: blogBalloon,    excerpt: "Neon-lit multi-colour fringe backdrops paired with macaron balloon garlands — the setups our clients can't stop sharing on Instagram." },
   { title: "How to Style a Showstopping Anniversary Backdrop at Home",                  tag: "Anniversary",  date: "May 28, 2026", read: "5 min", img: blogRoom,       excerpt: "From sequin shimmer walls to rose-gold neon signs, here's how we design anniversary setups that feel grand without leaving home." },
   { title: "Mermaid Birthday Themes: Magical Under-the-Sea Parties for Kids",           tag: "Kids",         date: "May 14, 2026", read: "7 min", img: blogKids,       excerpt: "Shell balloons, teal fringe curtains and pastel garlands — everything you need to create an ocean-inspired birthday your child will remember forever." },
-  { title: "Black & Silver Birthday Décor: Elegant Setups That Steal the Show",         tag: "Birthday",     date: "Apr 30, 2026", read: "4 min", img: blogAnniv,      excerpt: "Chrome ring arches, star balloons and metallic accents — why monochrome birthday setups are the top choice for milestone celebrations." },
+  { title: "Black & Gold Birthday Décor: Bold, Glamorous Setups for Every Milestone",    tag: "Birthday",     date: "Apr 30, 2026", read: "4 min", img: blogAnniv,      excerpt: "Gold fringe curtain backdrops, black & gold balloon arches, 'Happy Birthday' bunting banners — why this power palette dominates milestone birthday celebrations." },
   { title: "Baby Shower Décor Etiquette: The Small Details That Matter Most",           tag: "Baby Shower",  date: "Apr 09, 2026", read: "6 min", img: blogBabyShower, excerpt: "Fresh pastels, personalised banners, baby foil props and fairy lights — the styling secrets behind our most-loved baby shower setups." },
   { title: "Proposal Setups That Say More Than the Ring",                                tag: "Proposal",     date: "Mar 22, 2026", read: "5 min", img: blogProposal,   excerpt: "How lighting, pathway design and a single custom sign can make the moment unforgettable — and keep her saying yes." },
 ];
