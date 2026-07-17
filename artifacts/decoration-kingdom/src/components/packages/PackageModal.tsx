@@ -131,6 +131,14 @@ export function PackageModal({ pkg, onClose }: { pkg: PackageItem | null; onClos
                   </ul>
                 </div>
 
+                {/* Notes */}
+                {pkg.notes && (
+                  <div className="mt-4 rounded-xl bg-[color:var(--pink)]/8 border border-[color:var(--pink)]/20 px-4 py-3">
+                    <p className="text-xs font-bold uppercase tracking-widest text-[color:var(--pink)] mb-1">Note</p>
+                    <p className="text-sm text-foreground/80">{pkg.notes}</p>
+                  </div>
+                )}
+
                 {/* Extra Add-ons */}
                 <div className="mt-5 rounded-2xl border border-[color:var(--gold)]/40 overflow-hidden">
                   <button

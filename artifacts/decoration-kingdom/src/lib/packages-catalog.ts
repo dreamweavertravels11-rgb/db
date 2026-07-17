@@ -55,6 +55,7 @@ export type PackageItem = {
   duration: string;
   area: string;
   addons: string[];
+  notes?: string;
 };
 
 /* ---------------------------------------------------------------------- */
@@ -90,7 +91,7 @@ function imagesFor(categoryId: string, subId?: string): string[] {
 /* ---------------------------------------------------------------------- */
 
 /* Per-package overrides: index matches the sorted image order in the folder */
-type PackageOverride = { name: string; price: number; includes: string[]; addons: string[] };
+type PackageOverride = { name: string; price: number; includes: string[]; addons: string[]; notes?: string };
 const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   "birthday-adult": [
     {
@@ -316,19 +317,16 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // ── index 7 — anniversary-15.png ──
     {
-      name: "Blue Purple 2nd Anniversary Balloon Setup",
-      price: 3799,
+      name: "Pink Rose Anniversary Balloons",
+      price: 3499,
       includes: [
-        "Purple & Blue Balloon Garland Arch",
-        "Silver Fringe Curtain Backdrop",
-        '"Happy Birthday" Teal Printed Banner',
-        'Number "2" Silver Foil Balloon',
-        "Blue Star Foil Balloons ×3",
-        "Silver Starburst Decorations ×2",
-        "Confetti Balloons",
-        "White & Blue Floor Balloon Scatter",
-        "Setup & Installation by Professionals",
+        "Pink & Silver Ceiling Balloons",
+        "Happy Anniversary Foil Balloons",
+        "Star Foils",
+        "Fairy Lights",
+        "Floor Balloon Pool",
       ],
+      notes: "Simple & Cute Setup. Best for Room Decoration",
       addons: ["Photographer (2 hrs)", "Fresh flower bouquet", "Premium cake table styling", "Candlelight dinner setup"],
     },
     // ── index 8 — anniversary-16.png ──
@@ -816,6 +814,7 @@ function buildPackages(): PackageItem[] {
           duration: cat.duration,
           area: cat.area,
           addons: ov?.addons ?? cat.addons,
+          notes: ov?.notes,
         });
       });
     }
