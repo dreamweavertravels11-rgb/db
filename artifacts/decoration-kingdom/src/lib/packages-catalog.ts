@@ -551,11 +551,25 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Cake table styling", "Extra foil character balloons"],
     },
+    {
+      name: "Mickey Mouse Classic Theme Birthday",
+      price: 3599,
+      includes: [
+        "Red, Black, Yellow Balloon Arch + Floor Scatter",
+        "Mickey Mouse Printed Backdrop – Red",
+        '"HAPPY BIRTHDAY" Text on Backdrop',
+        "Mickey Mouse Standing Foil Balloon",
+        'Number "2" Silver Foil Balloon',
+        "Polka Dot Balloons – Red & Black",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Cake table styling", "Extra foil character balloons"],
+    },
   ],
 };
 
 const nameThemes: Record<string, string[]> = {
-  "birthday-baby-girl": ["Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme", "Pink Purple Neon Birthday Wall"],
+  "birthday-baby-girl": ["Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme", "Pink Purple Neon Birthday Wall", "Mickey Mouse Classic Theme Birthday"],
   "birthday-baby-boy": ["Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
   "birthday-adult": ["Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
   anniversary: ["Heart Canopy Anniversary Decor", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
