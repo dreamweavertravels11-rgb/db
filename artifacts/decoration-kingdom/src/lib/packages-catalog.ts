@@ -544,16 +544,13 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
 const nameThemes: Record<string, string[]> = {
   "birthday-baby-girl": ["Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme"],
   "birthday-baby-boy": ["Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
-  "birthday-twins": ["Twin Stars Birthday Decor", "His & Hers Balloon Setup", "Double Delight Birthday Theme", "Twin Rainbow Birthday Decor"],
   "birthday-adult": ["Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
   anniversary: ["Heart Canopy Anniversary Decor", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
   proposal: ["Marry Me Marquee Proposal", "Heart Balloon Proposal Setup", "Rooftop Rose Proposal Decor", "Candlelight Proposal Backdrop", "Garden Proposal Floral Arch", "Rose Petal Proposal Pathway", "Grand Ring Proposal Decor"],
   "baby-shower-girl": ["Oh Baby Girl Balloon Setup", "Pink Floral Baby Shower Decor", "Little Princess Baby Shower Theme", "Pastel Cloud Baby Shower Decor"],
   "baby-shower-boy": ["Oh Baby Boy Balloon Setup", "Blue Floral Baby Shower Decor", "Little Prince Baby Shower Theme", "Sky Blue Cloud Baby Shower Decor"],
-  "baby-shower-twins": ["Double Bundle Baby Shower Decor", "Twin Baby Shower Balloon Setup", "His & Hers Baby Shower Theme"],
   "naming-ceremony-girl": ["Pink Naming Ceremony Decor", "Floral Naming Ceremony Setup", "Elegant Girl Naming Backdrop"],
   "naming-ceremony-boy": ["Blue Naming Ceremony Decor", "Royal Naming Ceremony Setup", "Elegant Boy Naming Backdrop"],
-  "naming-ceremony-twins": ["Twin Naming Ceremony Decor", "Double Joy Naming Ceremony Setup", "Twin Blessing Naming Backdrop"],
   haldi: ["Marigold Haldi Backdrop", "Boho Yellow Haldi Setup", "Phoolon Ki Chaadar Haldi", "Traditional Haldi Chowki Decor"],
   mehendi: ["Rajasthani Mehendi Umbrella Decor", "Boho Phoolon Ki Chaadar Mehendi"],
   "ring-ceremony": ["Glittering Ring Ceremony Backdrop", "Royal Gold Ring Ceremony Decor", "Floral Ring Ceremony Stage", "Elegant Ring Ceremony Setup"],
@@ -583,7 +580,6 @@ export const categories: CategoryDef[] = [
     subcategories: [
       { id: "baby-girl", label: "Baby Girl" },
       { id: "baby-boy", label: "Baby Boy" },
-      { id: "twins", label: "Twins" },
       { id: "adult", label: "Adult" },
     ],
     basePrice: 4499,
@@ -649,7 +645,6 @@ export const categories: CategoryDef[] = [
     subcategories: [
       { id: "girl", label: "Baby Girl" },
       { id: "boy", label: "Baby Boy" },
-      { id: "twins", label: "Twins" },
     ],
     basePrice: 4499,
     priceStep: 550,
@@ -674,7 +669,6 @@ export const categories: CategoryDef[] = [
     subcategories: [
       { id: "girl", label: "Baby Girl" },
       { id: "boy", label: "Baby Boy" },
-      { id: "twins", label: "Twins" },
     ],
     basePrice: 4499,
     priceStep: 550,

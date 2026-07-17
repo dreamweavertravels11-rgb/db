@@ -253,7 +253,7 @@ const rawSections: Array<Omit<Section, "items"> & { items: RawPkg[] }> = [
       { title: "Colourful Garden Welcome Baby Girl", desc: "A butterfly themed garden burst of colour.", price: 13749, img: celebBabyWelcome, featured: true, tag: "Luxury" },
       { title: "Blue Welcome Baby Boy Theme", desc: "Welcome your baby boy with a serene blue decor.", price: 3124, img: celebNaming },
       { title: "Pink Welcome Baby Girl Theme", desc: "Pink dreams & silver linings for baby girl.", price: 2874, img: specBaby },
-      { title: "Double Delight Twins Baby Decor", desc: "Ready to welcome two little ones.", price: 3124, img: celebBabyShower },
+
       { title: "Colourful Welcome Baby Girl", desc: "A heartwarming welcome ceremony setup.", price: 6249, img: pkgKids },
       { title: "Charming Oh Baby Balloon Arch", desc: "Add magic to your baby boy's arrival.", price: 2874, img: celebBabyWelcome },
       { title: "Pastel Welcome Baby Girl Decor", desc: "Soft pastels for baby girl's welcome.", price: 3374, img: specBaby },

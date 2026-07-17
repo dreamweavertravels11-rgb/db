@@ -18,10 +18,6 @@ import bg04 from "@/assets/pkg/birthday/baby-girl/bday-girl-03.png";
 import bg05 from "@/assets/pkg/birthday/baby-girl/bday-girl-00.png";
 import bg06 from "@/assets/pkg/birthday/baby-girl/bday-girl-01.png";
 import bg07 from "@/assets/pkg/birthday/baby-girl/bday-girl-02.png";
-import tw01 from "@/assets/pkg/birthday/twins/bday-twins-01.jpeg";
-import tw02 from "@/assets/pkg/birthday/twins/bday-twins-02.jpeg";
-import tw03 from "@/assets/pkg/birthday/twins/bday-twins-03.jpg";
-import tw04 from "@/assets/pkg/birthday/twins/bday-twins-04.jpg";
 import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
@@ -153,28 +149,28 @@ const kidsThemePackagesMap: Record<string, KidsThemePackage[]> = {
   "dinosaurs": [
     {
       id: "dinosaurs-01", name: "Dino Roar Birthday Setup", category: "birthday", categoryLabel: "Kids Theme Decoration",
-      image: tw01, price: 5499,
+      image: g1, price: 5499,
       description: "A pre-historic party experience with dino-green balloon arch, roaring dinosaur cutouts, fossil-dig props and a Jurassic backdrop every little paleontologist will go crazy for.",
       includes: ["100-balloon arch (dino green & orange)", "Dinosaur character cutouts (T-Rex & Triceratops)", "Jurassic theme backdrop (6×4 ft)", "Fossil dig prop set", "Cake table with dino props", "Name board with dino typography"],
       duration: "2–3 hrs setup", area: "Up to 12×12 ft", addons: commonAddons,
     },
     {
       id: "dinosaurs-02", name: "Prehistoric Adventure Decor", category: "birthday", categoryLabel: "Kids Theme Decoration",
-      image: tw02, price: 7499,
+      image: g2, price: 7499,
       description: "Roar into the Jurassic era with a full dino parade, prehistoric cave backdrop, LED green-glow effects and an explorer photo booth that captures every wild encounter.",
       includes: ["150-balloon arch (prehistoric colors)", "4 dinosaur cutouts (dino parade)", "Prehistoric cave backdrop (6×5 ft)", "LED green glow accent lighting", "Explorer photo booth frame", "Dino egg prop display", "Themed name board + cake table"],
       duration: "3–4 hrs setup", area: "Up to 15×15 ft", addons: commonAddons,
     },
     {
       id: "dinosaurs-03", name: "Jurassic Birthday Celebration", category: "birthday", categoryLabel: "Kids Theme Decoration",
-      image: tw03, price: 9999,
+      image: g3, price: 9999,
       description: "A full Jurassic Park experience at home — giant dino arch, hanging pterodactyl mobiles, volcano prop centerpiece, confetti balloons and a premium prehistoric stage backdrop.",
       includes: ["Giant 8 ft balloon arch (Jurassic green & brown)", "Hanging pterodactyl balloon mobiles", "Volcano centrepiece prop", "Jurassic Park style backdrop (8×5 ft)", "Confetti balloons (10 pcs)", "Custom LED name board", "Dino footprint floor decal trail", "Prehistoric prop box"],
       duration: "3–5 hrs setup", area: "Up to 18×18 ft", addons: commonAddons,
     },
     {
       id: "dinosaurs-04", name: "Ultimate Dino World Extravaganza", category: "birthday", categoryLabel: "Kids Theme Decoration",
-      image: tw04, price: 12999,
+      image: g4, price: 12999,
       description: "The most epic Dino World experience — floor-to-ceiling balloon jungle, welcome T-Rex arch, 5 life-size dino cutouts, LED jungle effects, and a personalized prehistoric name board.",
       includes: ["Floor-to-ceiling balloon jungle installation", "Welcome T-Rex arch (6 ft tall)", "5 life-size dinosaur cutouts", "Premium 8×5 ft Jurassic backdrop with LED", "Hanging pterodactyl & egg balloon mobiles", "Personalized dino name board", "Full dino props set (fossils, bones, eggs)", "LED green jungle ambient lighting"],
       duration: "4–6 hrs setup", area: "Up to 20×20 ft", addons: commonAddons,

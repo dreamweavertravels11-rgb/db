@@ -22,11 +22,6 @@ import gGbs2  from "@/assets/gallery/g-gbs-2.jpg";
 import gGbs3  from "@/assets/gallery/g-gbs-3.jpg";
 import gGbs4  from "@/assets/gallery/g-gbs-4.jpg";
 
-// ── Baby Shower – Twins ───────────────────────────────────────
-import gTbs1  from "@/assets/gallery/g-tbs-1.jpg";
-import gTbs2  from "@/assets/gallery/g-tbs-2.jpg";
-import gTbs3  from "@/assets/gallery/g-tbs-3.jpg";
-
 // ── Birthday – Adults ─────────────────────────────────────────
 import gBday1 from "@/assets/gallery/g-bday-1.jpg";
 import gBday2 from "@/assets/gallery/g-bday-2.jpg";
@@ -52,12 +47,6 @@ import gBgirl4 from "@/assets/gallery/g-bgirl-4.jpg";
 import gBgirl5 from "@/assets/gallery/g-bgirl-5.jpg";
 import gBgirl6 from "@/assets/gallery/g-bgirl-6.jpg";
 import gBgirl7 from "@/assets/gallery/g-bgirl-7.jpg";
-
-// ── Birthday Kids – Twins ─────────────────────────────────────
-import gBtwins1 from "@/assets/gallery/g-btwins-1.jpg";
-import gBtwins2 from "@/assets/gallery/g-btwins-2.jpg";
-import gBtwins3 from "@/assets/gallery/g-btwins-3.jpg";
-import gBtwins4 from "@/assets/gallery/g-btwins-4.jpg";
 
 // ── Haldi ─────────────────────────────────────────────────────
 import gHaldi1  from "@/assets/gallery/g-haldi-1.jpg";
@@ -96,11 +85,6 @@ import gNcg1 from "@/assets/gallery/g-ncg-1.jpg";
 import gNcg2 from "@/assets/gallery/g-ncg-2.jpg";
 import gNcg3 from "@/assets/gallery/g-ncg-3.jpg";
 import gNcg4 from "@/assets/gallery/g-ncg-4.jpg";
-
-// ── Naming Ceremony – Twins ───────────────────────────────────
-import gNctwin1 from "@/assets/gallery/g-nctwin-1.jpg";
-import gNctwin2 from "@/assets/gallery/g-nctwin-2.jpg";
-import gNctwin3 from "@/assets/gallery/g-nctwin-3.jpg";
 
 // ── Proposals ─────────────────────────────────────────────────
 import gProp1 from "@/assets/gallery/g-prop-1.jpg";
@@ -142,11 +126,6 @@ export const extraGalleryItems: GalleryItem[] = [
   { slug: "g-gbs-3",  title: "Baby Girl Shower Setup",         eyebrow: "Baby Shower",    img: gGbs3,     sectionId: "baby-shower", sectionTitle: "Baby Shower" },
   { slug: "g-gbs-4",  title: "Floral Baby Shower – Girl",      eyebrow: "Baby Shower",    img: gGbs4,     sectionId: "baby-shower", sectionTitle: "Baby Shower" },
 
-  // Baby Shower – Twins
-  { slug: "g-tbs-1",  title: "Twin Baby Shower Decoration",    eyebrow: "Baby Shower",    img: gTbs1,     sectionId: "baby-shower", sectionTitle: "Baby Shower" },
-  { slug: "g-tbs-2",  title: "Twin Shower Balloon Setup",      eyebrow: "Baby Shower",    img: gTbs2,     sectionId: "baby-shower", sectionTitle: "Baby Shower" },
-  { slug: "g-tbs-3",  title: "Twins Baby Shower Décor",        eyebrow: "Baby Shower",    img: gTbs3,     sectionId: "baby-shower", sectionTitle: "Baby Shower" },
-
   // Birthday Adults
   { slug: "g-bday-1", title: "Birthday Room Decoration",       eyebrow: "Birthday",       img: gBday1,    sectionId: "birthday",    sectionTitle: "Birthday" },
   { slug: "g-bday-2", title: "Balloon Birthday Setup",         eyebrow: "Birthday",       img: gBday2,    sectionId: "birthday",    sectionTitle: "Birthday" },
@@ -172,12 +151,6 @@ export const extraGalleryItems: GalleryItem[] = [
   { slug: "g-bgirl-5", title: "Baby Girl Balloon Decoration",  eyebrow: "Kids Birthday",  img: gBgirl5,   sectionId: "kids",        sectionTitle: "Kids" },
   { slug: "g-bgirl-6", title: "Kids Birthday Room – Girl",     eyebrow: "Kids Birthday",  img: gBgirl6,   sectionId: "kids",        sectionTitle: "Kids" },
   { slug: "g-bgirl-7", title: "Baby Girl Party Setup",         eyebrow: "Kids Birthday",  img: gBgirl7,   sectionId: "kids",        sectionTitle: "Kids" },
-
-  // Birthday Kids – Twins
-  { slug: "g-btwins-1", title: "Twins Birthday Decoration",    eyebrow: "Kids Birthday",  img: gBtwins1,  sectionId: "kids",        sectionTitle: "Kids" },
-  { slug: "g-btwins-2", title: "Twin Kids Birthday Setup",     eyebrow: "Kids Birthday",  img: gBtwins2,  sectionId: "kids",        sectionTitle: "Kids" },
-  { slug: "g-btwins-3", title: "Twins Party Balloon Décor",    eyebrow: "Kids Birthday",  img: gBtwins3,  sectionId: "kids",        sectionTitle: "Kids" },
-  { slug: "g-btwins-4", title: "Twin Babies Birthday Theme",   eyebrow: "Kids Birthday",  img: gBtwins4,  sectionId: "kids",        sectionTitle: "Kids" },
 
   // Haldi
   { slug: "g-haldi-1",  title: "Haldi Ceremony Decoration",   eyebrow: "Haldi",          img: gHaldi1,   sectionId: "haldi",       sectionTitle: "Haldi" },
@@ -216,11 +189,6 @@ export const extraGalleryItems: GalleryItem[] = [
   { slug: "g-ncg-2", title: "Baby Girl Naming Décor",          eyebrow: "Welcome Baby",   img: gNcg2,     sectionId: "welcome-baby", sectionTitle: "Welcome Baby" },
   { slug: "g-ncg-3", title: "Pink Naming Ceremony Setup",      eyebrow: "Welcome Baby",   img: gNcg3,     sectionId: "welcome-baby", sectionTitle: "Welcome Baby" },
   { slug: "g-ncg-4", title: "Naming Ceremony Floral Arch",     eyebrow: "Welcome Baby",   img: gNcg4,     sectionId: "welcome-baby", sectionTitle: "Welcome Baby" },
-
-  // Naming Ceremony – Twins
-  { slug: "g-nctwin-1", title: "Twin Naming Ceremony Décor",   eyebrow: "Welcome Baby",   img: gNctwin1,  sectionId: "welcome-baby", sectionTitle: "Welcome Baby" },
-  { slug: "g-nctwin-2", title: "Twins Naming Ceremony Setup",  eyebrow: "Welcome Baby",   img: gNctwin2,  sectionId: "welcome-baby", sectionTitle: "Welcome Baby" },
-  { slug: "g-nctwin-3", title: "Twin Babies Welcome Décor",    eyebrow: "Welcome Baby",   img: gNctwin3,  sectionId: "welcome-baby", sectionTitle: "Welcome Baby" },
 
   // Proposals
   { slug: "g-prop-1", title: "Romantic Proposal Setup",        eyebrow: "Proposal",       img: gProp1,    sectionId: "ring",        sectionTitle: "Ring & Proposal" },
