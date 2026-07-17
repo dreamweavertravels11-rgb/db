@@ -538,11 +538,24 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Cake table styling", "Extra foil character balloons"],
     },
+    {
+      name: "Pink Purple Neon Birthday Wall",
+      price: 5499,
+      includes: [
+        "Full Balloon Wall – Pink, Purple, Lavender & Silver Chrome",
+        "Happy Birthday Neon LED Sign",
+        "Silver Heart Foil Balloon",
+        "Silver Cube Foil Balloon",
+        "Balloon Installation Frame",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Cake table styling", "Extra foil character balloons"],
+    },
   ],
 };
 
 const nameThemes: Record<string, string[]> = {
-  "birthday-baby-girl": ["Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme"],
+  "birthday-baby-girl": ["Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme", "Pink Purple Neon Birthday Wall"],
   "birthday-baby-boy": ["Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
   "birthday-adult": ["Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
   anniversary: ["Heart Canopy Anniversary Decor", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
