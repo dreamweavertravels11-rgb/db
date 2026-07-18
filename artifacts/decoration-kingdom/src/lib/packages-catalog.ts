@@ -435,6 +435,20 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   ],
   "birthday-baby-boy": [
     {
+      name: "Royal Blue & Silver Classic 1st Birthday",
+      price: 3499,
+      includes: [
+        "Blue + Silver Chrome Balloon Arch",
+        "Silver Fringe Curtain Backdrop",
+        '"HAPPY BIRTHDAY" Blue Banner with Gold Text',
+        "Blue Star Foil Balloons",
+        "Gift Box Props – Blue",
+        "Floor Confetti Scatter – Blue & Silver",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
       name: "Classic Black & Gold Birthday Decor",
       price: 1499,
       includes: [
@@ -461,20 +475,6 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
         "Duration: 4 Hours",
       ],
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
-    },
-    {
-      name: "Royal Blue & Silver Classic 1st Birthday",
-      price: 3499,
-      includes: [
-        "Blue + Silver Chrome Balloon Arch",
-        "Silver Fringe Curtain Backdrop",
-        '"HAPPY BIRTHDAY" Blue Banner with Gold Text',
-        "Blue Star Foil Balloons",
-        "Gift Box Props – Blue",
-        "Floor Confetti Scatter – Blue & Silver",
-        "Setup & Installation by Professionals",
-      ],
-      addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
     },
     {
       name: "Royal Butterfly Birthday Decor",
