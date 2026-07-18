@@ -462,20 +462,6 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
     },
     {
-      name: "Royal Butterfly Birthday Decor",
-      price: 1999,
-      includes: [
-        "Balloon Arch – Purple + Golden Chrome Balloons, 8×8 ft",
-        "Big Butterfly Foil Balloon – Purple & Gold",
-        "Golden Foil Curtain Backdrop – Full Wall",
-        '"HAPPY BIRTHDAY" Black-Gold Banner',
-        "Floor Scatter Balloons",
-        "Professional Setup & Installation",
-        "Duration: 4 Hours",
-      ],
-      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
-    },
-    {
       name: "Royal Blue & Silver Classic 1st Birthday",
       price: 3499,
       includes: [
@@ -488,6 +474,20 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
         "Setup & Installation by Professionals",
       ],
       addons: ["Photographer (2 hrs)", "Number foil balloon upgrade", "LED name board", "Extra balloon garland"],
+    },
+    {
+      name: "Royal Butterfly Birthday Decor",
+      price: 1999,
+      includes: [
+        "Balloon Arch – Purple + Golden Chrome Balloons, 8×8 ft",
+        "Big Butterfly Foil Balloon – Purple & Gold",
+        "Golden Foil Curtain Backdrop – Full Wall",
+        '"HAPPY BIRTHDAY" Black-Gold Banner',
+        "Floor Scatter Balloons",
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
     },
     {
       name: "Construction / JCB Theme Birthday",
@@ -579,6 +579,19 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   ],
   "birthday-baby-girl": [
     {
+      name: "Barbie Glam Wall Theme",
+      price: 3599,
+      includes: [
+        "Pink, Hot Pink, Rose Gold, White, Silver Chrome Balloon Wall",
+        '"Happy Birthday" Silver Foil Letter Balloons',
+        "Barbie Logo Foils ×4 + Barbie Car Foils",
+        "Pink Heart Foil Balloon ×2 + Pink Star Foil Balloons ×3",
+        "Barbie Lipstick Foil Balloon",
+        "Setup & Installation by Professionals",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Cake table styling", "Extra foil character balloons"],
+    },
+    {
       name: "Classic Black & Gold Birthday Decor",
       price: 1499,
       includes: [
@@ -619,19 +632,6 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
         "Duration: 4 Hours",
       ],
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
-    },
-    {
-      name: "Barbie Glam Wall Theme",
-      price: 3599,
-      includes: [
-        "Pink, Hot Pink, Rose Gold, White, Silver Chrome Balloon Wall",
-        '"Happy Birthday" Silver Foil Letter Balloons',
-        "Barbie Logo Foils ×4 + Barbie Car Foils",
-        "Pink Heart Foil Balloon ×2 + Pink Star Foil Balloons ×3",
-        "Barbie Lipstick Foil Balloon",
-        "Setup & Installation by Professionals",
-      ],
-      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Cake table styling", "Extra foil character balloons"],
     },
     {
       name: "Princess Castle Theme",
@@ -709,8 +709,8 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
 };
 
 const nameThemes: Record<string, string[]> = {
-  "birthday-baby-girl": ["Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme", "Pink Purple Neon Birthday Wall", "Mickey Mouse Classic Theme Birthday"],
-  "birthday-baby-boy": ["Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
+  "birthday-baby-girl": ["Barbie Glam Wall Theme", "Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme", "Pink Purple Neon Birthday Wall", "Mickey Mouse Classic Theme Birthday"],
+  "birthday-baby-boy": ["Royal Blue & Silver Classic 1st Birthday", "Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
   "birthday-adult": ["Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
   anniversary: ["Heart Canopy Anniversary Decor", "Budget Balloon Bash Package", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
   proposal: ["Marry Me Marquee Proposal", "Heart Balloon Proposal Setup", "Rooftop Rose Proposal Decor", "Candlelight Proposal Backdrop", "Garden Proposal Floral Arch", "Rose Petal Proposal Pathway", "Grand Ring Proposal Decor"],
