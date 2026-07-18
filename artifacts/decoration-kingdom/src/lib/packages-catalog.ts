@@ -95,6 +95,48 @@ type PackageOverride = { name: string; price: number; includes: string[]; addons
 const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   "birthday-adult": [
     {
+      name: "Classic Black & Gold Birthday Decor",
+      price: 1499,
+      includes: [
+        "Black & Gold Chrome Balloon Arch – 8×8 ft",
+        "Gold Fringe Curtain Backdrop – Full Wall",
+        '"HAPPY BIRTHDAY" Banner – Black with Gold Text',
+        "Gold Star Foil Balloons × 2",
+        "Floor Balloon Scatter",
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
+      name: "Royal Balloon Room Decor",
+      price: 1699,
+      includes: [
+        "100+ Latex Balloons – Pink, Purple, Silver & White Mix",
+        "Ceiling Balloon Decor – 40–50 Balloons with Curling Ribbons",
+        "Bed Balloon Pool – 40–50 Balloons on Bed",
+        "3 Balloon Flowers – Wall Decoration",
+        '"HAPPY BIRTHDAY" or "HAPPY ANNIVERSARY" Silver Foil – 1 Set',
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
+      name: "Royal Butterfly Birthday Decor",
+      price: 1999,
+      includes: [
+        "Balloon Arch – Purple + Golden Chrome Balloons, 8×8 ft",
+        "Big Butterfly Foil Balloon – Purple & Gold",
+        "Golden Foil Curtain Backdrop – Full Wall",
+        '"HAPPY BIRTHDAY" Black-Gold Banner',
+        "Floor Scatter Balloons",
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
       name: "Black Gold Mustard 20th Birthday",
       price: 4999,
       includes: [
@@ -228,6 +270,20 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       addons: ["Photographer (2 hrs)", "Fresh flower bouquet", "LED name board upgrade", "Candlelight dinner setup"],
     },
     // ── index 1 — anniversary-09.png ──
+    {
+      name: "Budget Balloon Bash Package",
+      price: 1499,
+      includes: [
+        "100 Latex Balloons – Pastel / Metallic / Chrome as per theme",
+        '"HAPPY BIRTHDAY" or "HAPPY ANNIVERSARY" Silver Foil – 1 Set',
+        "Basic Balloon Arch / Wall – 8 ft to 10 ft",
+        "Floor Balloon Scatter – 20–30 pcs",
+        "Tape + Setup + Installation by Professionals",
+        "Duration: 3–4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "Fresh flower bouquet", "LED name board upgrade", "Candlelight dinner setup"],
+    },
+    // ── index 2 — anniversary-10.png ──
     {
       name: "Lavender Silver 1st Anniversary",
       price: 5999,
@@ -378,6 +434,48 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   ],
   "birthday-baby-boy": [
     {
+      name: "Classic Black & Gold Birthday Decor",
+      price: 1499,
+      includes: [
+        "Black & Gold Chrome Balloon Arch – 8×8 ft",
+        "Gold Fringe Curtain Backdrop – Full Wall",
+        '"HAPPY BIRTHDAY" Banner – Black with Gold Text',
+        "Gold Star Foil Balloons × 2",
+        "Floor Balloon Scatter",
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
+      name: "Royal Balloon Room Decor",
+      price: 1699,
+      includes: [
+        "100+ Latex Balloons – Pink, Purple, Silver & White Mix",
+        "Ceiling Balloon Decor – 40–50 Balloons with Curling Ribbons",
+        "Bed Balloon Pool – 40–50 Balloons on Bed",
+        "3 Balloon Flowers – Wall Decoration",
+        '"HAPPY BIRTHDAY" or "HAPPY ANNIVERSARY" Silver Foil – 1 Set',
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
+      name: "Royal Butterfly Birthday Decor",
+      price: 1999,
+      includes: [
+        "Balloon Arch – Purple + Golden Chrome Balloons, 8×8 ft",
+        "Big Butterfly Foil Balloon – Purple & Gold",
+        "Golden Foil Curtain Backdrop – Full Wall",
+        '"HAPPY BIRTHDAY" Black-Gold Banner',
+        "Floor Scatter Balloons",
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
       name: "Royal Blue & Silver Classic 1st Birthday",
       price: 3499,
       includes: [
@@ -481,6 +579,48 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   ],
   "birthday-baby-girl": [
     {
+      name: "Classic Black & Gold Birthday Decor",
+      price: 1499,
+      includes: [
+        "Black & Gold Chrome Balloon Arch – 8×8 ft",
+        "Gold Fringe Curtain Backdrop – Full Wall",
+        '"HAPPY BIRTHDAY" Banner – Black with Gold Text',
+        "Gold Star Foil Balloons × 2",
+        "Floor Balloon Scatter",
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
+      name: "Royal Balloon Room Decor",
+      price: 1699,
+      includes: [
+        "100+ Latex Balloons – Pink, Purple, Silver & White Mix",
+        "Ceiling Balloon Decor – 40–50 Balloons with Curling Ribbons",
+        "Bed Balloon Pool – 40–50 Balloons on Bed",
+        "3 Balloon Flowers – Wall Decoration",
+        '"HAPPY BIRTHDAY" or "HAPPY ANNIVERSARY" Silver Foil – 1 Set',
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
+      name: "Royal Butterfly Birthday Decor",
+      price: 1999,
+      includes: [
+        "Balloon Arch – Purple + Golden Chrome Balloons, 8×8 ft",
+        "Big Butterfly Foil Balloon – Purple & Gold",
+        "Golden Foil Curtain Backdrop – Full Wall",
+        '"HAPPY BIRTHDAY" Black-Gold Banner',
+        "Floor Scatter Balloons",
+        "Professional Setup & Installation",
+        "Duration: 4 Hours",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling"],
+    },
+    {
       name: "Barbie Glam Wall Theme",
       price: 3599,
       includes: [
@@ -569,10 +709,10 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
 };
 
 const nameThemes: Record<string, string[]> = {
-  "birthday-baby-girl": ["Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme", "Pink Purple Neon Birthday Wall", "Mickey Mouse Classic Theme Birthday"],
-  "birthday-baby-boy": ["Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
-  "birthday-adult": ["Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
-  anniversary: ["Heart Canopy Anniversary Decor", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
+  "birthday-baby-girl": ["Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Barbie Glam Wall Theme", "Princess Castle Theme", "Barbie Dream Theme", "Cocomelon Rainbow Theme", "Pink Purple Neon Birthday Wall", "Mickey Mouse Classic Theme Birthday"],
+  "birthday-baby-boy": ["Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Royal Blue & Silver Classic 1st Birthday", "Construction / JCB Theme Birthday", "Dinosaur Jungle Theme Birthday", "Wild One Jungle Safari Theme", "Cocomelon Pastel Theme", "Mickey Mouse Classic Theme", "Sonic The Hedgehog Theme"],
+  "birthday-adult": ["Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
+  anniversary: ["Heart Canopy Anniversary Decor", "Budget Balloon Bash Package", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
   proposal: ["Marry Me Marquee Proposal", "Heart Balloon Proposal Setup", "Rooftop Rose Proposal Decor", "Candlelight Proposal Backdrop", "Garden Proposal Floral Arch", "Rose Petal Proposal Pathway", "Grand Ring Proposal Decor"],
   "baby-shower-girl": ["Oh Baby Girl Balloon Setup", "Pink Floral Baby Shower Decor", "Little Princess Baby Shower Theme", "Pastel Cloud Baby Shower Decor"],
   "baby-shower-boy": ["Oh Baby Boy Balloon Setup", "Blue Floral Baby Shower Decor", "Little Prince Baby Shower Theme", "Sky Blue Cloud Baby Shower Decor"],
