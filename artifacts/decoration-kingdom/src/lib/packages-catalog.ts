@@ -717,15 +717,12 @@ const nameThemes: Record<string, string[]> = {
   "birthday-adult": ["Classic Black & Gold Birthday Decor", "Royal Balloon Room Decor", "Royal Butterfly Birthday Decor", "Black Gold Mustard 20th Birthday", "Black White Gold Star Birthday", "Terracotta Boho Birthday", "Blue Purple Galaxy Birthday", "Black Gold Silver Classic Birthday", "Pink Purple Neon Birthday Wall", "Sage Green Gold Rustic Birthday", "Pink White Silver Fringe Birthday"],
   anniversary: ["Heart Canopy Anniversary Decor", "Budget Balloon Bash Package", "Rose Petal Anniversary Setup", "Golden Glow Anniversary Theme", "Romantic Fairy-light Anniversary", "Elegant Floral Anniversary Decor", "Premium Anniversary Balloon Setup"],
   proposal: ["Marry Me Marquee Proposal", "Heart Balloon Proposal Setup", "Rooftop Rose Proposal Decor", "Candlelight Proposal Backdrop", "Garden Proposal Floral Arch", "Rose Petal Proposal Pathway", "Grand Ring Proposal Decor"],
-  "baby-shower-girl": ["Oh Baby Girl Balloon Setup", "Pink Floral Baby Shower Decor", "Little Princess Baby Shower Theme", "Pastel Cloud Baby Shower Decor"],
-  "baby-shower-boy": ["Oh Baby Boy Balloon Setup", "Blue Floral Baby Shower Decor", "Little Prince Baby Shower Theme", "Sky Blue Cloud Baby Shower Decor"],
-  "naming-ceremony-girl": ["Pink Naming Ceremony Decor", "Floral Naming Ceremony Setup", "Elegant Girl Naming Backdrop"],
-  "naming-ceremony-boy": ["Blue Naming Ceremony Decor", "Royal Naming Ceremony Setup", "Elegant Boy Naming Backdrop"],
+  "baby-shower": ["Oh Baby Girl Balloon Setup", "Pink Floral Baby Shower Decor", "Little Princess Baby Shower Theme", "Pastel Cloud Baby Shower Decor", "Oh Baby Boy Balloon Setup", "Blue Floral Baby Shower Decor", "Little Prince Baby Shower Theme", "Sky Blue Cloud Baby Shower Decor", "Rainbow Baby Shower Decor", "Pastel Balloon Baby Shower"],
+  "naming-ceremony": ["Pink Naming Ceremony Decor", "Floral Naming Ceremony Setup", "Elegant Girl Naming Backdrop", "Blue Naming Ceremony Decor", "Royal Naming Ceremony Setup", "Elegant Boy Naming Backdrop", "Pastel Naming Ceremony Decor", "Grand Naming Ceremony Setup", "Balloon Naming Ceremony Theme", "Floral Naming Backdrop"],
   haldi: ["Marigold Haldi Backdrop", "Boho Yellow Haldi Setup", "Phoolon Ki Chaadar Haldi", "Traditional Haldi Chowki Decor"],
   mehendi: ["Rajasthani Mehendi Umbrella Decor", "Boho Phoolon Ki Chaadar Mehendi"],
   "ring-ceremony": ["Glittering Ring Ceremony Backdrop", "Royal Gold Ring Ceremony Decor", "Floral Ring Ceremony Stage", "Elegant Ring Ceremony Setup"],
-  "welcome-baby-baby-girl": ["Welcome Baby Girl Pink Balloon Setup", "Little Princess Welcome Decor", "Pink Silver Welcome Baby Girl Theme"],
-  "welcome-baby-baby-boy": ["Welcome Baby Boy Blue Balloon Setup", "Little Prince Welcome Decor", "Blue Silver Welcome Baby Boy Theme"],
+  "welcome-baby": ["Welcome Baby Girl Pink Balloon Setup", "Little Princess Welcome Decor", "Pink Silver Welcome Baby Girl Theme", "Welcome Baby Boy Blue Balloon Setup", "Little Prince Welcome Decor", "Blue Silver Welcome Baby Boy Theme", "Pastel Welcome Baby Decor", "Sweet Welcome Home Setup"],
 };
 
 const descThemes: Record<string, string> = {
@@ -812,10 +809,6 @@ export const categories: CategoryDef[] = [
     eyebrow: "Baby Shower Celebrations",
     tagline: "Dreamy pastel setups to celebrate the mother-to-be.",
     banner: bannerFor("baby-shower"),
-    subcategories: [
-      { id: "girl", label: "Baby Girl" },
-      { id: "boy", label: "Baby Boy" },
-    ],
     basePrice: 4499,
     priceStep: 550,
     duration: "2–4 hours",
@@ -836,10 +829,6 @@ export const categories: CategoryDef[] = [
     eyebrow: "Naming Ceremony",
     tagline: "Traditional, elegant backdrops to welcome the little one's name.",
     banner: bannerFor("naming-ceremony"),
-    subcategories: [
-      { id: "girl", label: "Baby Girl" },
-      { id: "boy", label: "Baby Boy" },
-    ],
     basePrice: 4499,
     priceStep: 550,
     duration: "3–4 hours",
@@ -900,10 +889,6 @@ export const categories: CategoryDef[] = [
     eyebrow: "Welcome Baby Celebrations",
     tagline: "Sweet balloon setups to welcome the newest member of the family.",
     banner: bannerFor("welcome-baby"),
-    subcategories: [
-      { id: "baby-girl", label: "Baby Girl" },
-      { id: "baby-boy", label: "Baby Boy" },
-    ],
     basePrice: 3999,
     priceStep: 500,
     duration: "2–3 hours",
