@@ -101,6 +101,9 @@ export function PackageModal({ pkg, onClose }: { pkg: PackageItem | null; onClos
                 <h3 className="font-display italic text-2xl md:text-3xl text-[color:var(--purple-deep)] leading-snug">
                   {pkg.name}
                 </h3>
+                <p className="mt-3 font-bold text-sm text-[color:var(--pink)] tracking-wide">
+                  ✨ All packages are fully customizable — tell us your vision!
+                </p>
                 <p className="mt-2 text-sm text-muted-foreground">{pkg.description}</p>
 
                 <div className="mt-4 flex items-end gap-2">
