@@ -94,10 +94,7 @@ function imagesFor(categoryId: string, subId?: string): string[] {
 type PackageOverride = { name: string; price: number; includes: string[]; addons: string[]; notes?: string };
 const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   "baby-shower": [
-    // indices 0–9 keep defaults
-    undefined, undefined, undefined, undefined, undefined,
-    undefined, undefined, undefined, undefined, undefined,
-    // index 10 — bs-11.png — Package 1
+    // index 0 — bs-11.png — Package 1
     {
       name: "Gender Neutral Baby Shower Balloon Decor Kit",
       price: 3499,
@@ -117,7 +114,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 11 — bs-12.png — Package 2
+    // index 1 — bs-12.png — Package 2
     {
       name: "Oh Baby Orange White Balloon Arch Decor Kit",
       price: 2999,
@@ -133,7 +130,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 12 — bs-13.png — Package 3
+    // index 2 — bs-13.png — Package 3
     {
       name: "Oh Baby Gender Reveal Pink Blue Balloon Decor",
       price: 3799,
@@ -155,7 +152,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 13 — bs-14.png — Package 4
+    // index 3 — bs-14.png — Package 4
     {
       name: "Oh Baby Gender Reveal Gold Pink Blue Balloon Decor Kit",
       price: 3999,
@@ -174,7 +171,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 14 — bs-15.png — Package 5
+    // index 4 — bs-15.png — Package 5
     {
       name: "Baby Shower Pink Purple Blue Balloon Arch Decor Kit",
       price: 3599,
@@ -192,7 +189,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 15 — bs-16.png — Package 6
+    // index 5 — bs-16.png — Package 6
     {
       name: "It's A Girl Pink Gold Baby Shower Balloon Decor Kit",
       price: 3299,
@@ -212,7 +209,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 16 — bs-17.png — Package 7
+    // index 6 — bs-17.png — Package 7
     {
       name: "Gender Reveal Baby Shower Pink Blue Gold Balloon Decor Kit",
       price: 3499,
@@ -235,7 +232,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 17 — bs-18.png — Package 8
+    // index 7 — bs-18.png — Package 8
     {
       name: "Baby Girl Pink Blue Gold Baby Shower Balloon Decor Kit",
       price: 3899,
@@ -254,7 +251,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "Mom-to-be sash & crown upgrade", "Games & props kit", "Premium cake table styling"],
     },
-    // index 18 — bs-19.png — Package 9
+    // index 8 — bs-19.png — Package 9
     {
       name: "Royal Baby Shower Gold White Pink Balloon Decor Kit",
       price: 4299,
