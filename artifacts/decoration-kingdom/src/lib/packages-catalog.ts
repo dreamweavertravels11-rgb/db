@@ -1025,6 +1025,37 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       ],
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
     },
+    // index 8 — wb-09.png — Welcome Baby Boy Decoration (Golden)
+    {
+      name: "Welcome Baby Boy Decoration",
+      price: 3599,
+      includes: [
+        "Backdrop: LED Fairy Lights with hanging setup",
+        "WELCOME BABY BOY Golden Foil Balloon Set",
+        "Blue Baby Foot Shape Foil Balloons",
+        "Silver Star Foil Balloons",
+        "Balloon Decor: Blue + White + Silver Chrome Balloon Frame/Arch",
+        "Floor Base: White + Blue Balloon Cluster",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 9 — wb-10.png — Welcome Home Baby Girl Room Decoration
+    {
+      name: "Welcome Home Baby Girl Room Decoration",
+      price: 4299,
+      includes: [
+        "WELCOME HOME Silver Foil Balloon Set",
+        "Pink Baby Bottle Foil Balloon - It's a Girl",
+        "Baby Girl Face Foil Balloon with Bow",
+        "Bed Decor: Pink + White Latex Balloon Scatter in Heart Shape",
+        "Floor Decor: Pink + White Balloon Scatter",
+        "Table Accents: Pink + White Balloon Bouquets for Side Tables",
+        "Prop: BABY Transparent Boxes with Lights + Balloons Inside",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
   ],
 };
 
