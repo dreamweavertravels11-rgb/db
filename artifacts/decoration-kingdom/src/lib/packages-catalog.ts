@@ -887,6 +887,145 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Cake table styling", "Extra foil character balloons"],
     },
   ],
+  "welcome-baby": [
+    // index 0 — wb-01.png — Welcome Baby Girl Decoration
+    {
+      name: "Welcome Baby Girl Decoration",
+      price: 3499,
+      includes: [
+        "Backdrop: Pink + Silver Foil Curtains",
+        "Balloon Arch: Pink + White + Silver Chrome Balloons",
+        "WELCOME Silver Foil Balloon Set",
+        "BABY GIRL Rose Gold Foil Balloon Set",
+        "Pink Star Foil Balloons",
+        "Golden Baby Face Foil Balloon",
+        "A New Little Princess Round Foil Balloons",
+        "Pink It's A Girl Latex Balloons",
+        "LED Fairy Lights",
+        "Floor Base: Pink + White Balloon Cluster",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 1 — wb-02.png — Welcome Babies Decoration
+    {
+      name: "Welcome Babies Decoration",
+      price: 3499,
+      includes: [
+        "Backdrop: Pink + Blue Curtain with LED Fairy Lights",
+        "Balloon Arch: Blue + Pink + White Balloon Garland - Both Sides",
+        "WELCOME BABIES Silver Foil Balloon Set",
+        "Baby Boy Face Foil Balloon",
+        "Baby Girl Face Foil Balloon",
+        "Foot Shape Foil Balloons - It's a Boy + It's a Girl",
+        "Floor Decor: Blue + Pink + White Balloon Scatter",
+        "Jumbo Pink + Blue Balloons for height",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 2 — wb-03.png — Welcome Baby Boy Decoration
+    {
+      name: "Welcome Baby Boy Decoration",
+      price: 3299,
+      includes: [
+        "Backdrop: Blue + Silver Foil Curtains",
+        "Balloon Arch: Light Blue + White + Dark Blue Chrome Balloon Garland",
+        "WELCOME BABY BOY Silver Foil Balloon Set",
+        "Golden Baby Boy Face Foil Balloon",
+        "Dark Blue Star Foil Balloons",
+        "A New Little Prince Round Foil Balloons",
+        "Blue It's A Boy Latex Balloons",
+        "Floor Base: Light Blue + White Balloon Cluster",
+        "LED Fairy Lights",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 3 — wb-04.png — Oh Baby Butterfly Theme Decoration
+    {
+      name: "Oh Baby Butterfly Theme Decoration",
+      price: 4299,
+      includes: [
+        "Backdrop: White Curtain with Warm LED Fairy Lights",
+        "Balloon Arch: Pink + White + Rose Gold Chrome + Confetti Balloon Garland - Full Frame",
+        "Oh Baby Gold Text on White Round Board",
+        "Butterfly Cutouts on Balloons",
+        "Floor Decor: Pink + Rose Gold Balloon Cluster",
+        "Clear Confetti Balloons",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 4 — wb-05.png — It's A Girl Colorful Theme Decoration
+    {
+      name: "It's A Girl Colorful Theme Decoration",
+      price: 3899,
+      includes: [
+        "Backdrop: Warm LED Fairy Lights",
+        "Balloon Arch: Yellow + Purple + Pink + White Balloon Garland",
+        "Banner: IT'S A GIRL Pink-Gold Bunting",
+        "baby Silver Foil Balloon Set",
+        "Baby Girl Face Foil Balloon",
+        "Baby Stroller Foil Balloon - Baby Girl",
+        "Foot Shape Foil Balloon - It's a Girl!",
+        "Round It's a Girl Foil Balloon",
+        "Silver Moon Foil Balloon",
+        "Butterfly Cutouts",
+        "Floor Base: Yellow + Purple + Pink Balloon Cluster",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 5 — wb-06.png — Princess Baby Girl Decoration
+    {
+      name: "Princess Baby Girl Decoration",
+      price: 3399,
+      includes: [
+        "Balloon Arch: Light Pink + White + Clear Confetti Balloon Garland - Half Circle",
+        "Silver Palm Leaf Cutouts",
+        "Princess Round Foil Balloons",
+        "Baby Girl Face Foil Balloon",
+        "Baby Bottle Foil Balloon - It's a Girl",
+        "Foot Shape Foil Balloon - It's a Girl!",
+        "Floor Decor: Light Pink + White + Clear Balloon Scatter",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 6 — wb-07.png — Prince Baby Boy Decoration
+    {
+      name: "Prince Baby Boy Decoration",
+      price: 3399,
+      includes: [
+        "Balloon Arch: Light Blue + White Balloon Garland - Half Circle",
+        "Prince Round Foil Balloons",
+        "Green Palm Leaf Cutouts",
+        "Custom Frame Posters with Baby Name - JAMES Foil Balloons",
+        "Baby Boy Face Foil Balloon",
+        "Baby Bottle Foil Balloon - It's A Boy",
+        "Foot Shape Foil Balloon - It's a Boy!",
+        "Floor Decor: Light Blue + White + Big Balloons Cluster",
+        "Add-ons: Flower Vase with Fresh Flowers, White Wire Balloon Stands",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+    // index 7 — wb-08.png — Royal Oh Baby Decoration
+    {
+      name: "Royal Oh Baby Decoration",
+      price: 3599,
+      includes: [
+        "Backdrop: Silver + Purple Foil Curtains",
+        "OH Silver Foil Balloon Set",
+        "BABY Silver Foil Balloon Set",
+        "Balloon Garland: Purple + Lavender + White + Gold Chrome + Pearl White Balloon Arch - Both Sides",
+        "Floor Decor: White + Gold Balloon Scatter",
+        "Setup & Labour included",
+      ],
+      addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
+    },
+  ],
 };
 
 const nameThemes: Record<string, string[]> = {
