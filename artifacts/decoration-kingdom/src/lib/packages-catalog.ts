@@ -1057,6 +1057,152 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       addons: ["Photographer (2 hrs)", "LED name board upgrade", "Premium cake table styling", "Extra foil balloons"],
     },
   ],
+  "proposal": [
+    // indices 0–6 are existing proposal images (proposal-01 to proposal-07) — no overrides, use auto names
+    undefined, undefined, undefined, undefined, undefined, undefined, undefined,
+    // index 7 — proposal-08.png — I Love You Balloon Frame
+    {
+      name: "I Love You Balloon Frame",
+      price: 2999,
+      includes: [
+        "Balloon Frame: Red + White Latex Balloon Square Arch",
+        "I LOVE YOU Red Foil Balloon Set - Vertical",
+        "Big Red Heart Foil Balloon",
+        "Floor Accents: Red + White Balloon Scatter",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 8 — proposal-09.png — Romantic Love Balloon Backdrop
+    {
+      name: "Romantic Love Balloon Backdrop",
+      price: 3699,
+      includes: [
+        "Balloon Arch: Red + White Latex Balloon Arch - Full Frame",
+        "Backdrop: Warm LED Fairy Light Curtain",
+        "Love Red Script Foil Balloon",
+        "Big Red Heart Foil Balloon - Center",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 9 — proposal-10.png — Cute Teddy Love Decoration
+    {
+      name: "Cute Teddy Love Decoration",
+      price: 2899,
+      includes: [
+        "I LOVE YOU Golden Foil Balloon Set",
+        "Big Brown Teddy Bear Foil Balloon with Love You Heart",
+        "Red Heart Shape Foil Balloons - Top Border + Side Bouquets",
+        "Heart balloons top border + side bouquets with weights + Center Teddy setup",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 10 — proposal-11.png — Pink Red Love Glam Decoration
+    {
+      name: "Pink Red Love Glam Decoration",
+      price: 3899,
+      includes: [
+        "Backdrop: Red Shimmer Foil Curtains",
+        "Balloon Garland: Red + Pink + Baby Pink + White Balloon Arch with Heart Print Balloons - L Shaped",
+        "love Silver Script Foil Balloon - Center",
+        "Heart Stack Foil Balloons with Confetti - Right Side",
+        "Floor Decor: Pink + Red + White Balloon Scatter",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 11 — proposal-12.png — Peach Gold Love Aesthetic Decoration
+    {
+      name: "Peach Gold Love Aesthetic Decoration",
+      price: 4299,
+      includes: [
+        "Balloon Garland: Peach + Baby Pink + White + Gold Chrome Balloon Arch - L Shape",
+        "love Golden Script Foil Balloon - Center",
+        "Peach Square Boxes + Vase with Pampas Grass",
+        "Floor Decor: Peach + Baby Pink Balloon Cluster near boxes",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 12 — proposal-13.png — Circle Ring Valentine Decoration
+    {
+      name: "Circle Ring Valentine Decoration",
+      price: 4999,
+      includes: [
+        "Frame: Golden Circle Ring Stand - 7ft",
+        "Balloon Garland: Red + Pink + Baby Pink + White + Gold Chrome Balloon Arch on one side of ring",
+        "BE MY VALENTINE Golden Foil Balloon Set - Center",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 13 — proposal-14.png — Proposal Room Decoration
+    {
+      name: "Proposal Room Decoration",
+      price: 2999,
+      includes: [
+        "Ceiling Decor: Maroon + Peach + White + Rose Gold Balloon Mix with Ribbons + Curlies",
+        "WILL YOU MARRY ME Rose Gold Foil Balloon Set - Wall Hanging",
+        "Bed Decor: Red Rose Petals Scatter on Bed",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 14 — proposal-15.png — Red Heart LED Walkway Decoration
+    {
+      name: "Red Heart LED Walkway Decoration",
+      price: 4299,
+      includes: [
+        "I LOVE U Red Foil Balloon Set - Wall",
+        "Red Heart Shape Foil Balloons on Sticks - on each side",
+        "Floor Decor: Red Latex Balloon Border - Lines",
+        "Rose Petals Walkway - Pink/Red Mix",
+        "LED Tea Light Candles",
+        "Backdrop: Warm LED Fairy Light Curtain",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 15 — proposal-16.png — Marry Me LED Walkway Decoration
+    {
+      name: "Marry Me LED Walkway Decoration",
+      price: 4299,
+      includes: [
+        "MARRY ME Golden Foil Balloon Set - Wall",
+        "Red Heart Shape Foil Balloons on Sticks with LED - on each side",
+        "Floor Decor: Red Latex Balloon Border - Lines",
+        "Rose Petals Walkway - Pink/Red Mix",
+        "LED Tea Light Candles",
+        "Backdrop: Warm LED Fairy Light Curtain",
+        "Setup & Labour included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+    // index 16 — proposal-17.png — LED Marquee Proposal Setup
+    {
+      name: "LED Marquee Proposal Setup",
+      price: 6999,
+      includes: [
+        "Props: MARRY ME LED Marquee Letters - 3ft Height, Warm White Bulbs",
+        "Floor Decor: Rose Petals Scatter - Full Area",
+        "I ♥ U Rose Petals Art - Center",
+        "Setup + Labour + Power Extension included",
+      ],
+      notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
+      addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
+    },
+  ],
 };
 
 const nameThemes: Record<string, string[]> = {
