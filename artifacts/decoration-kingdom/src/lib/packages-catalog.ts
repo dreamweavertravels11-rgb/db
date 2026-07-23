@@ -96,7 +96,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
   "baby-shower": [
     // index 0 — bs-11.png — Package 1
     {
-      name: "Gender Neutral Baby Shower Balloon Decor Kit",
+      name: "Gender Neutral Baby Shower Balloon",
       price: 3499,
       includes: [
         "BABY SHOWER Golden Foil Balloon Set",
@@ -116,7 +116,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // index 1 — bs-12.png — Package 2
     {
-      name: "Oh Baby Orange White Balloon Arch Decor Kit",
+      name: "Oh Baby Orange White Balloon Arch",
       price: 2999,
       includes: [
         "OH BABY Silver Foil Balloon Set",
@@ -154,7 +154,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // index 3 — bs-14.png — Package 4
     {
-      name: "Oh Baby Gender Reveal Gold Pink Blue Balloon Decor Kit",
+      name: "Oh Baby Gender Reveal Gold Pink Blue Balloon",
       price: 3999,
       includes: [
         "OH BABY Golden Foil Balloon Set",
@@ -173,7 +173,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // index 4 — bs-15.png — Package 5
     {
-      name: "Baby Shower Pink Purple Blue Balloon Arch Decor Kit",
+      name: "Baby Shower Pink Purple Blue Balloon Arch",
       price: 3599,
       includes: [
         "Baby Shower Golden Banner",
@@ -191,7 +191,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // index 5 — bs-16.png — Package 6
     {
-      name: "It's A Girl Pink Gold Baby Shower Balloon Decor Kit",
+      name: "It's A Girl Pink Gold Baby Shower Balloon",
       price: 3299,
       includes: [
         "BABY SHOWER Golden Foil Balloon Set",
@@ -211,7 +211,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // index 6 — bs-17.png — Package 7
     {
-      name: "Gender Reveal Baby Shower Pink Blue Gold Balloon Decor Kit",
+      name: "Gender Reveal Baby Shower Pink Blue Gold Balloon",
       price: 3499,
       includes: [
         "Baby Shower Golden Banner",
@@ -234,7 +234,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // index 7 — bs-18.png — Package 8
     {
-      name: "Baby Girl Pink Blue Gold Baby Shower Balloon Decor Kit",
+      name: "Baby Girl Pink Blue Gold Baby Shower Balloon",
       price: 3899,
       includes: [
         "Baby Shower Golden Banner",
@@ -253,7 +253,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
     // index 8 — bs-19.png — Package 9
     {
-      name: "Royal Baby Shower Gold White Pink Balloon Decor Kit",
+      name: "Royal Baby Shower Gold White Pink Balloon",
       price: 4299,
       includes: [
         "Baby Shower Golden Banner",
@@ -1058,9 +1058,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
     },
   ],
   "proposal": [
-    // indices 0–6 are existing proposal images (proposal-01 to proposal-07) — no overrides, use auto names
-    undefined, undefined, undefined, undefined, undefined, undefined, undefined,
-    // index 7 — proposal-08.png — I Love You Balloon Frame
+    // index 0 — proposal-08.png — I Love You Balloon Frame
     {
       name: "I Love You Balloon Frame",
       price: 2999,
@@ -1074,7 +1072,7 @@ const packageOverrides: Record<string, (PackageOverride | undefined)[]> = {
       notes: "Final setup is subject to material availability at time of booking — our team will confirm and adjust all items accordingly.",
       addons: ["Photographer (2 hrs)", "Rose petals upgrade", "Candle pathway add-on", "Extra foil balloons"],
     },
-    // index 8 — proposal-09.png — Romantic Love Balloon Backdrop
+    // index 1 — proposal-09.png — Romantic Love Balloon Backdrop
     {
       name: "Romantic Love Balloon Backdrop",
       price: 3699,

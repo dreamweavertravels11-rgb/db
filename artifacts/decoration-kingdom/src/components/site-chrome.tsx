@@ -28,7 +28,7 @@ export function SiteHeader({ active }: { active?: string }) {
           <div className="flex items-center gap-3">
             <span className="hidden sm:inline">Follow Us :</span>
             <a href="/" aria-label="Home" className="w-7 h-7 rounded-full bg-white/95 text-[color:var(--purple-deep)] grid place-items-center hover:scale-110 transition-transform"><Home className="w-4 h-4" /></a>
-            <a href="#" aria-label="Facebook" className="w-7 h-7 rounded-full bg-white/95 text-[color:var(--purple-deep)] grid place-items-center hover:scale-110 transition-transform"><Facebook className="w-4 h-4" /></a>
+            <a href="https://www.facebook.com/share/19Bqsvf6QC/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-7 h-7 rounded-full bg-white/95 text-[color:var(--purple-deep)] grid place-items-center hover:scale-110 transition-transform"><Facebook className="w-4 h-4" /></a>
             <a href="https://www.instagram.com/decorationkingdomdelhincr?utm_source=qr&igsh=NHp0bHZvZmM2dmd1" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-7 h-7 rounded-full bg-white/95 text-[color:var(--pink)] grid place-items-center hover:scale-110 transition-transform"><Instagram className="w-4 h-4" /></a>
             <a href={WHATSAPP_BOOKING_URL} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="w-7 h-7 rounded-full bg-[#25D366] text-white grid place-items-center hover:scale-110 transition-transform"><MessageCircle className="w-4 h-4" /></a>
           </div>
@@ -128,7 +128,7 @@ export function SiteFooter() {
         <div>
           <h4 className="font-bold mb-3">Follow Us</h4>
           <div className="flex gap-3">
-            <a href="#" aria-label="Facebook" className="w-9 h-9 rounded-full bg-white/10 grid place-items-center hover:bg-[color:var(--pink)] transition-colors"><Facebook className="w-4 h-4" /></a>
+            <a href="https://www.facebook.com/share/19Bqsvf6QC/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 rounded-full bg-white/10 grid place-items-center hover:bg-[color:var(--pink)] transition-colors"><Facebook className="w-4 h-4" /></a>
             <a href="https://www.instagram.com/decorationkingdomdelhincr?utm_source=qr&igsh=NHp0bHZvZmM2dmd1" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full bg-white/10 grid place-items-center hover:bg-[color:var(--pink)] transition-colors"><Instagram className="w-4 h-4" /></a>
             <a href={WHATSAPP_BOOKING_URL} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="w-9 h-9 rounded-full bg-white/10 grid place-items-center hover:bg-[#25D366] transition-colors"><MessageCircle className="w-4 h-4" /></a>
           </div>
